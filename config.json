@@ -1,13 +1,13 @@
 {
 	"numberOfEvents": 1000000,
 	"delayBetweenEvents": 0.05,
-	"screenshotInterval": 5,
+	"screenshotInterval": 0.05,
 
 	"eventWeights": {
-		"tap": 500,
+		"tap": 50,
 		"drag": 1,
 		"flick": 1,
-		"orientation": 1,
+		"orientation": 10,
 		"clickVolumeUp": 1,
 		"clickVolumeDown": 1,
 		"pinchClose": 10,
